@@ -2,6 +2,8 @@ def turn_count(board)
   turn = 0
   board.each do |spot|
     if spot == " " || spot == "" || spot = nil
+      turn += 0
+    else
       turn += 1
     end
   end
